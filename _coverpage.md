@@ -10,4 +10,4 @@
 - 这里是一中学子永远的家!欢迎大家！
 
 [GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started]()
+[Get Started](#一中南街1号回忆录)
