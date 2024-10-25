@@ -1,6 +1,6 @@
 
 # **一中南街1号回忆录**
- <small>**版本号:beta1.0**</small>
+ <small>**版本号:beta1.1.1**</small>
 
 
 - 本项目最初由<font color= #871F78>@莓烦恼</font>发起
