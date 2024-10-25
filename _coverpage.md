@@ -1,7 +1,6 @@
 
 # **一中南街1号回忆录**
  <small>**版本号:beta1.1.2**</small>
-- 本文总阅读量 <span id="busuanzi_value_page_pv"></span> 次
 - 本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
 - 本站总访客数 <span id="busuanzi_value_site_uv"></span> 人
 - 本项目最初由<font color= #871F78>@莓烦恼</font>发起
