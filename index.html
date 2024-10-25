@@ -5,8 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+  <link rel="stylesheet" href="./css/main.css" />
   <script src="https://npm.elemecdn.com/penndu@1.0.0/bsz.js"></script> <!--卜算子统计-->
+
   <title>--一中南街1号回忆录</title>
 </head>
 
@@ -16,11 +17,22 @@
  window.$docsify = {
  coverpage: true, //封面是否开启
  loadSidebar: true,//定制侧边栏是否开启
+ name: '一中南街1号回忆录',//定制侧边栏标题
+ sidebarDisplayLevel: 0,//是否展开目录 0是否，1为是
+ pagination: {
+    previousText: '上一章节',
+    nextText: '下一章节',
+    crossChapter: true,
+    crossChapterText: true,
+  },
+
      }
  </script>
 
  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+ <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
 </body>
 
 </html>
