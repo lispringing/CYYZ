@@ -7,7 +7,6 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./css/main.css" />
   <script src="https://npm.elemecdn.com/penndu@1.0.0/bsz.js"></script> <!--卜算子统计-->
-
   <title>--一中南街1号回忆录</title>
 </head>
 
@@ -17,21 +16,36 @@
  window.$docsify = {
  coverpage: true, //封面是否开启
  loadSidebar: true,//定制侧边栏是否开启
- name: '一中南街1号回忆录',//定制侧边栏标题
+ name: '一中南街1号回忆录',//定制侧边栏标题,
  sidebarDisplayLevel: 0,//是否展开目录 0是否，1为是
- pagination: {
-    previousText: '上一章节',
-    nextText: '下一章节',
+ pagination: {   //底部章节跳转
+    previousText: '上一部分',
+    nextText: '下一部分',
     crossChapter: true,
     crossChapterText: true,
   },
+  plugins: [ //页脚
+    function(hook) {
+      var footer = [
+        '<hr/>',
+        '<footer>',
+        '<span>网站由<a href="https://www.springing.top">Spring</a>强力驱动</span>',
+        '<br>',
+        '<span>往事总在回忆时被赋予意义 —— 2024年新高考一卷</span>',
+        '</footer>'
+      ].join('');
 
+      hook.afterEach(function(html) {
+        return html + footer;
+      });
+    }
+  ],
      }
  </script>
 
  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
- <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+ <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script> <!--底部章节跳转-->
 
 </body>
 
