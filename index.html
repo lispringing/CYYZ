@@ -48,23 +48,10 @@
           twikoo.init({
             envId: 'https://twikoo.happyking.top',
             el: '#tcomment',
-            path: 'function getCustomPath() {const url = window.location.href;const hashIndex = url.indexOf('#');if (hashIndex !== -1 && url.length > hashIndex + 1) {return url.substring(0, hashIndex + 1);} else { return url;}}',
+            path: window.location.href.split('#')[0] + (window.location.href.split('#').length > 1 ? '#/' : ''),
            });
          };
-          
-  // 获取当前页面的URL
   
-
-  // 找到URL中井号（#）的位置
-  
-
-  // 如果存在井号，并且井号不是URL的最后一个字符
-  
-    // 构建新的路径，从井号开始，去掉井号后面的部分
-    
-  
-    // 如果没有井号或者井号是最后一个字符，返回整个URL
-   
   
           // 页面加载时初始化评论区
           hook.ready(initTwikoo);
