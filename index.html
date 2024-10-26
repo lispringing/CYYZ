@@ -6,34 +6,34 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./css/main.css" />
-  <script src="https://npm.elemecdn.com/penndu@1.0.0/bsz.js"></script> <!--卜算子统计-->
   <title>一中南街1号回忆录</title>
+  <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
 </head>
 
 <body>
-  <div id="app">加载中</div>
+  <div id="app">加载中，请稍候</div>
   <script>
     window.$docsify = {
       el: '#app',
-      coverpage: true,
-      loadSidebar: true,
-      name: '一中南街1号回忆录',
-      sidebarDisplayLevel: 0,
-      pagination: {
+      coverpage: true, //cover页面是否开启
+      loadSidebar: true, // 自定义侧栏
+      name: '一中南街1号回忆录', //侧栏显示的名字
+      sidebarDisplayLevel: 0, //侧栏是否展开 0为不开 1为开
+      pagination: { //底部跳转目录
         previousText: '上一部分',
         nextText: '下一部分',
-        crossChapter: true,
-        crossChapterText: false,
+        crossChapter: true, //显示下一篇题目
+        crossChapterText: false, //显示下一篇具体内容
       },
-      plugins: [
+      plugins: [ //页脚
         function (hook) {
           var footer = [
             '<hr/>',
-            '<div id="twikoocomment">评论区</div>',
+            '<div id="twikoocomment">讨论区</div>',
             '<div id="tcomment" style="width:400px"></div>',
             '<hr/>',
             '<footer>',
-            '<span>网站由<a href="https://www.springing.top">Spring</a>强力驱动</span>',
+            '<span>本站由<a href="https://www.springing.top">Spring</a>强力驱动</span>',
             '<br>',
             '<span>往事总在回忆时被赋予意义 —— 2024年新高考一卷</span>',
             '</footer>'
@@ -43,6 +43,8 @@
             return html + footer;
           });
 
+
+
           // 初始化 Twikoo
           function initTwikoo() {
             console.log('初始化 Twikoo 评论区');
@@ -51,10 +53,8 @@
               el: '#tcomment',
             });
           }
-
           // 页面加载时初始化评论区
           hook.ready(initTwikoo);
-
           // 页面切换时重新渲染评论区
           hook.afterEach(function (html) {
             setTimeout(() => {
@@ -69,12 +69,11 @@
       ],
     };
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> <!--主要js引入-->
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script> <!--底部章节跳转-->
   <script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
 
   
 </body>
-
 </html>
