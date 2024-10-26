@@ -43,6 +43,16 @@
             return html + footer;
           });
 
+
+          // 初始化 Twikoo
+          function initTwikoo() {
+            console.log('初始化 Twikoo 评论区');
+            twikoo.init({
+              envId: 'https://twikoo.happyking.top',
+              el: '#tcomment',
+              path: 'getCustomPath()',
+            });
+          };
           function getCustomPath() {
   // 获取当前页面的URL
   const url = window.location.href;
@@ -59,16 +69,6 @@
     return url;
   }
 }
-
-          // 初始化 Twikoo
-          function initTwikoo() {
-            console.log('初始化 Twikoo 评论区');
-            twikoo.init({
-              envId: 'https://twikoo.happyking.top',
-              el: '#tcomment',
-              path: 'getCustomPath()',
-            });
-          }
           // 页面加载时初始化评论区
           hook.ready(initTwikoo);
           // 页面切换时重新渲染评论区
