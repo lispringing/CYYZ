@@ -23,6 +23,6 @@
 或将您写好的稿子，发送至一下任意地址，我们会**收录归档在网页中**<br>
 
 !>邮箱:2638526782@qq.com<br>
-!>邮箱:wdsjxz@foxmail.com<br>
+邮箱:wdsjxz@foxmail.com<br>
 
 
