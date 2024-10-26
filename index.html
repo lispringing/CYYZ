@@ -43,7 +43,22 @@
             return html + footer;
           });
 
+          function getCustomPath() {
+  // 获取当前页面的URL
+  const url = window.location.href;
 
+  // 找到URL中井号（#）的位置
+  const hashIndex = url.indexOf('#');
+
+  // 如果存在井号，并且井号不是URL的最后一个字符
+  if (hashIndex !== -1 && url.length > hashIndex + 1) {
+    // 构建新的路径，从井号开始，去掉井号后面的部分
+    return url.substring(0, hashIndex + 1);
+  } else {
+    // 如果没有井号或者井号是最后一个字符，返回整个URL
+    return url;
+  }
+}
 
           // 初始化 Twikoo
           function initTwikoo() {
@@ -51,7 +66,7 @@
             twikoo.init({
               envId: 'https://twikoo.happyking.top',
               el: '#tcomment',
-              path: 'url.match(/https?:\/\/[^\/]+(#\/[^#]*)/)',
+              path: 'getCustomPath(),',
             });
           }
           // 页面加载时初始化评论区
