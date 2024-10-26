@@ -38,37 +38,34 @@
             '<span>往事总在回忆时被赋予意义 —— 2024年新高考一卷</span>',
             '</footer>'
           ].join('');
-
           hook.afterEach(function (html) {
             return html + footer;
           });
 
-
-          // 初始化 Twikoo
-          function initTwikoo() {
-            console.log('初始化 Twikoo 评论区');
-            twikoo.init({
-              envId: 'https://twikoo.happyking.top',
-              el: '#tcomment',
-              path: 'getCustomPath()',
-            });
-          };
-          function getCustomPath() {
+        // 初始化 Twikoo
+        function initTwikoo() {
+          console.log('初始化 Twikoo 评论区');
+          twikoo.init({
+            envId: 'https://twikoo.happyking.top',
+            el: '#tcomment',
+            path: 'function getCustomPath() {const url = window.location.href;const hashIndex = url.indexOf('#');if (hashIndex !== -1 && url.length > hashIndex + 1) {return url.substring(0, hashIndex + 1);} else { return url;}}',
+           });
+         };
+          
   // 获取当前页面的URL
-  const url = window.location.href;
+  
 
   // 找到URL中井号（#）的位置
-  const hashIndex = url.indexOf('#');
+  
 
   // 如果存在井号，并且井号不是URL的最后一个字符
-  if (hashIndex !== -1 && url.length > hashIndex + 1) {
+  
     // 构建新的路径，从井号开始，去掉井号后面的部分
-    return url.substring(0, hashIndex + 1);
-  } else {
+    
+  
     // 如果没有井号或者井号是最后一个字符，返回整个URL
-    return url;
-  }
-}
+   
+  
           // 页面加载时初始化评论区
           hook.ready(initTwikoo);
           // 页面切换时重新渲染评论区
