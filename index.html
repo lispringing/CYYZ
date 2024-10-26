@@ -48,7 +48,7 @@
           twikoo.init({
             envId: 'https://twikoo.happyking.top',
             el: '#tcomment',
-            path: window.location.pathname.split('#')[0] + (window.location.href.split('#').length > 1? '#/' + (window.location.pathname.indexOf('#')!== -1? window.location.pathname.split('#')[1] : window.location.href.split('#')[1]) : '')
+            path: window.location.pathname.split('#')[0] + (window.location.href.split('#').length > 1? '#/' + (window.location.pathname.indexOf('#')!== -1? window.location.pathname.split('#')[1].split('?')[0] : window.location.href.split('#')[1].split('?')[0]) : '')
 
            });
          };
