@@ -898,13 +898,13 @@ code .token {
   spin 2000ms cubic-bezier(.175, .885, .32, 1.275) infinite
 ;
   box-sizing: border-box;
-  height: 50px;
+  height: 5000px;
   left: 0;
   overflow: hidden;
   position: absolute;
   top: 0;
   transform-origin: 50% 100%;
-  width: 100px;
+  width: 10000px;
 }
 .loader-line {
   border: 4px solid transparent;
