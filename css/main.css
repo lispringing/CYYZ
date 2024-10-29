@@ -893,18 +893,23 @@ code .token {
 }
 
 /*加载页面*/
+.loader{
+  position : absolute;
+	width : 100%;
+	height : 100%;
+}
 .loader-line-wrap {
   animation: 
   spin 2000ms cubic-bezier(.175, .885, .32, 1.275) infinite
 ;
   box-sizing: border-box;
-  height: 5000px;
+  height: 500px;
   left: 0;
   overflow: hidden;
   position: absolute;
   top: 0;
   transform-origin: 50% 100%;
-  width: 10000px;
+  width: 100px;
 }
 .loader-line {
   border: 4px solid transparent;
