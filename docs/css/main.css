@@ -1,4 +1,4 @@
-.sidebar-nav>ul{margin-left:20px}.sidebar-nav ul:not(.app-sub-sidebar)>li{position:relative;margin:0;cursor:pointer;margin-left:4px}.sidebar-nav ul:not(.app-sub-sidebar)>li::before{content:'';display:block;position:absolute;top:8px;left:-16px;height:14px;width:14px}.sidebar-nav ul:not(.app-sub-sidebar)>li.folder::before{background:center/contain no-repeat url(https://bu.dusays.com/2024/10/25/671b591b265f2.png)}.sidebar-nav ul:not(.app-sub-sidebar)>li.file::before{background:center/contain no-repeat url(https://bu.dusays.com/2024/10/25/671b57d98c356.png)}
+.sidebar-nav>ul{margin-left:20px}.sidebar-nav ul:not(.app-sub-sidebar)>li{position:relative;margin:0;cursor:pointer;margin-left:4px}.sidebar-nav ul:not(.app-sub-sidebar)>li::before{content:'';display:block;position:absolute;top:8px;left:-16px;height:14px;width:14px}.sidebar-nav ul:not(.app-sub-sidebar)>li.folder::before{background:center/contain no-repeat url(./1.png)}.sidebar-nav ul:not(.app-sub-sidebar)>li.file::before{background:center/contain no-repeat url(./2.png)}
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600");
 * {
   -webkit-font-smoothing: antialiased;

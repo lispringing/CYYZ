@@ -1,4 +1,4 @@
-![7a357f2e3de41fefd3f511f5cf0fe0c_compressed.jpg](https://bu.dusays.com/2024/10/29/6720d09fdb2c1.jpg)
+![7a357f2e3de41fefd3f511f5cf0fe0c_compressed.jpg](./img/2.jpg)
 # 大学生活初体验
 1. 最好的大学在高中，最好的高中在大学😭
 2. 懒得喷.......+1+1+1+1➕1

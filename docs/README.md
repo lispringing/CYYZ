@@ -1,4 +1,4 @@
-![739749caabf4805c1999c06d3969dbb.jpg](https://bu.dusays.com/2024/10/25/671b1a2968f1d.jpg)
+![739749caabf4805c1999c06d3969dbb.jpg](./img/1.jpg)
 # 一中南街1号回忆录
 > <font color= #871F78>“我更愿意就事论事 返回到当年的心境里 看一看当时的悲欢和忧乐。 ”</font>
 
