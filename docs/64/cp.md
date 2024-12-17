@@ -13,9 +13,9 @@
 <img src="./img/9.jpg" width=300/>
 </center>
 <center class="half">
-<img src="https://bu.dusays.com/2024/10/29/6720c9b08aa01.jpeg" width=240/>
-<img src="https://bu.dusays.com/2024/10/29/6720c9b2a8908.jpeg" width=200/>
-<img src="https://bu.dusays.com/2024/10/29/6720cabc4c378.jpeg" width=200/>
+<img src="./img/10.jpg" width=240/>
+<img src="./img/11.jpg" width=200/>
+<img src="./img/12.jpg" width=200/>
 </center>
 
 >归档完毕 2024年10月29日
