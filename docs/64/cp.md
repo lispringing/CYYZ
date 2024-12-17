@@ -9,8 +9,8 @@
 
 <center class="half">
 <img src="./img/7.jpg" width=240/>
-<img src="https://bu.dusays.com/2024/10/29/6720c9ae9a1ae.jpeg" width=200/>
-<img src="https://bu.dusays.com/2024/10/29/6720c9aeeb011.jpeg" width=300/>
+<img src="./img/8.jpg" width=200/>
+<img src="./img/9.jpg" width=300/>
 </center>
 <center class="half">
 <img src="https://bu.dusays.com/2024/10/29/6720c9b08aa01.jpeg" width=240/>
