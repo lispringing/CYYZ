@@ -3,11 +3,10 @@
 
 >Hou！Chen！Yu！！！！列队：欢迎
 
-<center class="half">
-<img src="./img/1.jpg" width=240/>
-<img src="./img/2.jpg" width=200/>
-<img src="./img/3.jpg" width=200/>
-</center>
+![image (3).jpeg](./img/1.jpg)
+![image (3).jpeg](./img/2.jpg)
+![image (3).jpeg](./img/3.jpg)
+
 
 > 6221 真神男团
 
